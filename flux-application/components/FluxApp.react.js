@@ -3,7 +3,6 @@
  */
 
 var React = require('react');
-
 var FluxApp = React.createClass({
 
   getInitialState: function() {
@@ -24,7 +23,7 @@ var FluxApp = React.createClass({
   render: function() {
     return (
       <div className="some-class">
-        
+        Hello
       </div>
     );
   },
