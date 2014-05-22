@@ -1,9 +1,10 @@
 var absurd = Absurd();
 var css = absurd.add({
     body: {
-      "padding": "100px"
+      margin: 0,
+      padding: "100px"
     }
-}).compile(function() {}, { minify: true} );
+}).compile(function() {}, { minify: true } );
 
 var sheet = document.createElement("style");
 sheet.innerHTML = css;
