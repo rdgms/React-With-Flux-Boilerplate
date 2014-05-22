@@ -2,9 +2,9 @@
  * @jsx React.DOM
  */
 
-require('./styles/styles');
-var React = require('react');
-var FluxApp = require('./components/FluxApp.react');
+require('./styles/container');
+var React = require('react'),
+    FluxApp = require('./components/FluxApp.react');
 
 React.renderComponent(
   <FluxApp />,
