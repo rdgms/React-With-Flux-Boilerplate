@@ -22,8 +22,11 @@ var FluxApp = React.createClass({
    */
   render: function() {
     return (
-      <div className="some-class">
-        Welcome to React with Flux.
+      <div className="container">
+        <h1>Oh, Hello</h1>
+        <div className="some-class">
+          Welcome to React with Flux.
+        </div>
       </div>
     );
   },
